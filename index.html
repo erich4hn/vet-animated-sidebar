@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Sidebar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <section class="sidebar-header">
+      <section class="sidebar-logo">
+        <img 
+        src="./assets/img/logo.svg"
+        alt="Logo que se localiza no topo do menu lateral."
+        loading="lazy"/>
+      </section>
+      <section class="sidebar-button" id="button-close-sidebar">
+        <img 
+        src="./assets/img/menu.svg"
+        alt="Botão que abre e fecha o menu lateral."
+        loading="lazy"/>
+      </section>
+    </section>
+    <ul class="sidebar-list">
+      <li class="sidebar-item">
+        <img src="./assets/img/search.svg" alt="Item de busca da lista" loading="lazy"/>
+        <p>Buscar</p>
+      </li>
+      <li class="sidebar-item item-active">
+        <img src="./assets/img/grid.svg" alt="Item dashboard da lista" loading="lazy"/>
+        <p>Dashboard</p>
+      </li>
+      <li class="sidebar-item">
+        <img src="./assets/img/pet.svg" alt="Item pets da lista" loading="lazy"/>
+        <p>Pets</p>
+      </li>
+      <li class="sidebar-item">
+        <img src="./assets/img/user.svg" alt="Item clientes da lista" loading="lazy"/>
+        <p>Clientes</p>
+      </li>
+      <li class="sidebar-item">
+        <img src="./assets/img/vet.svg" alt="Item veterinários da lista" loading="lazy"/>
+        <p>Vets</p>
+      </li>
+      <li class="sidebar-item">
+        <img src="./assets/img/settings.svg" alt="Item configurações da lista" loading="lazy"/>
+        <p>Ajustes</p>
+      </li>
+    </ul>
+    <section class="sidebar-footer">
+      <section class="user">
+        <img src="./assets/img/photo.jpg" alt="Foto do usuário" loading="lazy"/>
+        <section class="user-info">
+          <p class="user-name">Mary Jane</p>
+          <p class="user-role">Veterinária</p>
+        </section>
+      </section>
+      <section class="user-logout">
+        <img src="./assets/img/log-out.svg" alt="Botão de logout" loading="lazy"/>
+      </section>
+    </section>
+  </aside>
+
+  <main class="content">
+    <section class="content-header">
+      <h1>Dashboard</h1>
+    </section>
+  </main>
+
+  <script src="./assets/js/scripts.js" async></script>
+</body>
+</html>
